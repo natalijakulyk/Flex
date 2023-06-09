@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.body{
+}
+.header {
+    background-color: rgba(222, 187, 255, 0.824);
+    padding: 15px;
+    display: flex;/* вмикає флекси та перетворює дочерні елементи в одну лінію */
+    justify-content: space-around;/* рухає дочерні елементи нв лінії */
+    align-items: center;/* рухає саму ліні. */
+    flex-direction: row;/* column-(вісь у) */
+}
+.header__logo {
+    text-transform: uppercase;
+    font-size: 33px;
+    border: 2px solid black;
+    padding: 5px;
+    font-family: fantasy;
+    border-radius: 10px;
+}
+.header__logo:hover{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.nav__link {
+    color: white;
+    font-size: 22px;
+    transition: 0.8s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav__link:nth-child(2){
+    color: black;
+}
+.nav__link:nth-child(4){
+    color: black;
+}
+.nav__link:hover{
+    color: blueviolet;
+}
+.header___button {
+    padding: 10px 20px;
+    background-color: rgba(132, 0, 255, 0.798);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.box{
+    width: 1365px;
+    height: 555px;
+    background-color: rgb(100, 17, 178);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-1 {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(142, 142, 255, 0.791);
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.block-2 {
+    width: 350px;
+    height: 400px;
+    background-color: rgba(178, 178, 255, 0.791);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+.block-3 {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(142, 142, 255, 0.791);
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.img{
+    margin-left: 5%;
+    padding: 15px 15px;
+    border-radius: 15%;
+}
